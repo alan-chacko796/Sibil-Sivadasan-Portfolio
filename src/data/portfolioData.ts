@@ -10,8 +10,8 @@ export const personalInfo = {
   location: 'Palakkad, Kerala, India',
   githubProfile: 'https://github.com/sibil-sibii',
   portfolioRepo: 'https://github.com/alan-chacko796/Sibil-Sivadasan-Portfolio',
-  profileImage: '/sibil_profile.jpg',
-  resumePdfUrl: '/Sibil_Sivadasan_Resume.pdf',
+  profileImage: './sibil_profile.jpg',
+  resumePdfUrl: './Sibil_Sivadasan_Resume.pdf',
   resumeFilename: 'Sibil_Sivadasan_Resume.pdf',
   statusBadge: 'Seeking Software Testing Opportunities'
 };
