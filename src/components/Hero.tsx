@@ -274,7 +274,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
                     borderRadius: '20px',
                     overflow: 'hidden',
                     aspectRatio: '3 / 4',
-                    background: 'var(--bg-tertiary)',
+                    background: '#ffffff',
                     boxShadow: 'var(--shadow-md)'
                   }}
                 >
@@ -285,20 +285,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
                       width: '100%',
                       height: '100%',
                       objectFit: 'cover',
-                      objectPosition: 'center 20%',
+                      objectPosition: 'center 12%',
                       display: 'block',
                       transition: 'transform 0.5s ease'
                     }}
                     loading="eager"
-                  />
-                  {/* Subtle vignette gradient */}
-                  <div
-                    style={{
-                      position: 'absolute',
-                      inset: 0,
-                      background: 'linear-gradient(to top, rgba(9, 13, 22, 0.75) 0%, rgba(9, 13, 22, 0) 50%)',
-                      pointerEvents: 'none'
-                    }}
                   />
                   {/* Inner Label */}
                   <div
